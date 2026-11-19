@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es5",                      // JavaScript version
+    "module": "es6",                      // Module system (e.g., ES6)
+    "lib": ["es2015", "dom"],
+    "outDir": "./out",                   // Output folder for compiled files
+    "rootDir": "./src",                   // Root folder for TypeScript files
+    "strict": true,                       // Enable strict type-checking
+    "esModuleInterop": true,              // Compatibility with ES modules
+    "sourceMap": false                     // Generate source maps for debugging
+  },
+  "include": ["src/**/*"],                // Files to include in the project
+  "exclude": [""]
+}
