@@ -1,0 +1,23 @@
+#musicgrid {
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 11px;
+}
+
+.musicalbum {
+  width: 90px;
+  height: 90px;
+  margin: 0px;
+  padding: 0px;
+  transition: transform 0.1s;
+  border: 1px solid #919b9d;
+}
+
+.musicalbum * {
+  box-sizing: border-box;
+}
+
+.musicalbum:hover {
+  transform: scale(130%);
+}
